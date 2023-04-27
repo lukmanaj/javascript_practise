@@ -21,9 +21,9 @@ function sumAll(arr) {
  return sumBetween;
 }
 
-
+console.group('sumAll')
 console.log(sumAll([1, 4]));
-
+console.groupEnd('sumAll')
 
 
 
